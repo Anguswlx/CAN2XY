@@ -1,7 +1,6 @@
 # Recognizing the topological phase transition by Variational Autoregressive Networks
 
-Cite this work as
-Paper link
+Cite this work as...
 
 ## Getting Started
 
@@ -29,4 +28,4 @@ Run a small size example,
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the LICENSE file for details

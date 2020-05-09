@@ -204,16 +204,6 @@ def main():
                     correlations = helicity(sample)
                 helicity_modulus = - ((energy/ args.L**2).mean() ) - (args.beta * correlations**2 / args.L**2).mean()
                 my_log('Rho={:.8g}'.format(helicity_modulus.item()))
-                # correlation length
-                # with torch.no_grad():
-                #    r_alg, r_exp, pcov= correlator.correlator(sample)
-                # my_log('Rho={:.8g},r_alg={:.8g}, r_exp={:.8g}, r_exp_std={:.8g}'
-                #     .format(
-                #         helicity_modulus.item(),
-                #         r_alg,
-                #         r_exp,
-                #         pcov[1,1]
-                #     ))
 
                 # save configurations
                 sample_array=sample.cpu().numpy()

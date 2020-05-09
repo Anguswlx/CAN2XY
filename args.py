@@ -1,5 +1,5 @@
 import argparse
-# 参数解析
+# Parameters
 parser = argparse.ArgumentParser()
 
 group = parser.add_argument_group('physics parameters')
@@ -26,11 +26,6 @@ group.add_argument(
     type=int,
     default=4,
     help='number of sites on each edge of the lattice')
-# group.add_argument(
-#     '--K',
-#     type=float,
-#     default=1,
-#     help='the coupling between the two layers')
 group.add_argument('--beta', type=float, default=1, help='beta = 1 / k_B T')
 
 group = parser.add_argument_group('network parameters')

@@ -150,15 +150,7 @@ class PixelCNN(nn.Module):
             for j in range(self.L):
                 x_hat = self.forward(sample) # q_theta
                 alpha=x_hat[:,0,i,j]
-                beta=x_hat[:,1,i,j]
-                # sample[:,0, i, j]= (torch.distributions.Normal(alpha,beta).sample().to(default_dtype_torch) % 1 + 1)/2  # normalization dis。
-                # sample[:,0, i, j]= torch.distributions.Uniform(alpha,beta).sample().to(default_dtype_torch) # uniform dis.
-                sample[:,0, i, j]= torch.distributions.Beta(alpha,beta).sample().to(default_dtype_torch) # beta dis.
-
-        # Chekc the distribution
-        # import matplotlib.pyplot as plt
-        # plt.hist(x_hat[:,0, 1, 1].cpu().numpy(), bins=100, normed=0, facecolor="blue", edgecolor="black", alpha=0.7)
-        # plt.show()
+                beta=x_hat[:,1,i,j]                sample[:,0, i, j]= torch.distributions.Beta(alpha,beta).sample().to(default_dtype_torch) # beta dis.
 
         if self.o2:
             # random angular change
