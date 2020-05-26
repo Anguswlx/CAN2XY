@@ -1,6 +1,9 @@
 # Recognizing the topological phase transition by Variational Autoregressive Networks
 
-Cite this work as...
+Cite this work as,
+
+L. Wang, Y. Jiang, L. He, and K. Zhou, ArXiv:2005.04857 [Cond-Mat] (2020).
+
 
 ## Getting Started
 
@@ -21,9 +24,9 @@ Run a small size example.
 
 ## Authors
 
-* **Lingxiao Wang** - *Construct code and write the preprint paper* - [Homepage](https://sites.google.com/view/lingxiao)
-* **Yin Jiang** - *Check codes and provide physical guidance*
-* **Lianyi He** - *Provide physical guidance and polish the article*
+* **Lingxiao Wang** - *Construct codes and write the preprint paper* - [Homepage](https://sites.google.com/view/lingxiao)
+* **Yin Jiang** - *Check codes and provide physics guidance*
+* **Lianyi He** - *Provide physics guidance and polish the article*
 * **Kai Zhou** - *Lead the project and complete the article.*
 
 ## License
