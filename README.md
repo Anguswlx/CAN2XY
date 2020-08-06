@@ -1,4 +1,4 @@
-# Recognizing the topological phase transition by Variational Autoregressive Networks
+# Recognizing the topological phase transition by the Continuous-mixture Autoregressive Networks
 
 Cite this work as,
 
